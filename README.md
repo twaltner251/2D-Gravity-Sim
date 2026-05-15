@@ -4,6 +4,7 @@ Video of Movable Center Mass: https://github.com/user-attachments/assets/f085d93
 
 
 Version 2 Optimizations and Updates:
+
 [o] Switched from Euler integration to Verlet int 
 
 [o] Stored mass in ball class to save computation 
