@@ -1,3 +1,6 @@
+Video of Stationary Center Mass: https://github.com/user-attachments/assets/4e852bcf-9886-4dcf-b397-aef5f6212c0f
+Video of Movable Center Mass: https://github.com/user-attachments/assets/f085d930-54df-4a8a-aa9a-400a3815ae28
+
 Version 2 Optimizations and Updates:
 [o] Switched from Euler integration to Verlet int 
 
