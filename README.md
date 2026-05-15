@@ -21,8 +21,10 @@ Version 2 Optimizations and Updates:
     configure the density, and whether or not it is stationary. (if it is affected by 
     surrounding ball's gravity or not)
 
+Previous Version README:
 
-Main Readme:
+Demo Video: https://github.com/user-attachments/assets/b38f8a42-2b2a-40e1-86ba-6be766dfd7b6
+
 The goal of this project is to create a simple, fun, interactive simulation to observe how N amount of objects with radius R and density D interact with eachother's gravitational pull.
 Left click anywhere on the pygame screen to add a ball, and see how they interact!
 
