@@ -7,11 +7,9 @@
 ## Demo Video:
 <img src="Demo_Video.gif" alt="App Demo GIF" width="600" />
 
-Video of Movable Center Mass
 <img src="Movable_Center_Mass.gif" alt="App Demo GIF" width="300" />
-
-Video of Stationary Center Mass
 <img src="Stationary_Center_Mass.gif" alt="App Demo GIF" width="300" />
+Video of Movable Center Mass (LEFT)   Video of Stationary Center Mass (RIGHT)
 
 ## Version 2 Optimizations and Updates:
 * Switched from Euler integration to Verlet int
