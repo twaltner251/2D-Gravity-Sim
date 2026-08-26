@@ -3,13 +3,13 @@ The goal of this project is to create a simple, fun, interactive simulation to o
 Left click anywhere on the pygame screen to add a ball, and see how they interact!
 
 Video of Stationary Center Mass:
-<img src="https://github.com/user-attachments/assets/4e852bcf-9886-4dcf-b397-aef5f6212c0f" alt="App Demo GIF" width="600" />
+<img src="./Demo Video.mov" alt="App Demo GIF" width="600" />
 
 Video of Movable Center Mass:
 <img src="https://github.com/user-attachments/assets/f085d930-54df-4a8a-aa9a-400a3815ae28" alt="App Demo GIF" width="600" />
 
 Demo Video:
-<img src="https://github.com/user-attachments/assets/b38f8a42-2b2a-40e1-86ba-6be766dfd7b6" alt="App Demo GIF" width="600" />
+<img src="./Demo Video.mov" alt="App Demo GIF" width="600" />
 
 Version 2 Optimizations and Updates:
 [o] Switched from Euler integration to Verlet int
