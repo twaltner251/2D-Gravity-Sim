@@ -9,7 +9,7 @@
 
 <p align="center">
   <img src="Movable_Center_Mass.gif" alt="Movable" width="300" style="display: inline-block; margin: 10px;" />
-  <img src="Stationary_Center_Mass.gif" alt="Stationary" width="300" style="display: inline-block; margin: 10px;" />
+  <img src="Stationary_Center_Mass.gif" alt="Stationary" width="300" style="display: inline-block; margin: 10px; padding-left: 0;" />
 </p>
 Video of Movable Center Mass (LEFT)   Video of Stationary Center Mass (RIGHT)
 
