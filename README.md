@@ -34,17 +34,9 @@ The goal of this project is to create an intuitive sandbox where you can observe
 This version brings major performance upgrades, physical accuracy improvements, and new customization features:
 
 * **⚡ Verlet Integration:** Switched from standard Euler integration to Verlet integration for superior stability and accuracy in orbital mechanics.
-* **🧮 Computation Optimization:** Pre-computed and stored mass directly inside the `Ball` class to eliminate redundant calculations per frame.
-* **⚖️ Bug Fix:** Corrected a critical mass calculation error (changed from $m = \frac{d}{v}$ to the physically correct $m = d \times v$).
-* **⏱️ Delta Time ($\Delta t$):** Replaced fixed time steps (0.016s) with a dynamic `dt` variable to ensure smooth, frame-rate independent movement.
-* **🧹 Code Structure:** Refactored and organized control logic neatly into a `main()` function.
-* **🧱 Wall Collisions:** Added wall collision boundaries controlled by a bounce factor constant (`B`).
+* ** Computation Optimization:** Pre-computed and stored mass directly inside the `Ball` class to eliminate redundant calculations per frame.
+* ** Bug Fix:** Corrected a critical mass calculation error (changed from $m = \frac{d}{v}$ to the physically correct $m = d \times v$).
+* ** Delta Time ($\Delta t$):** Replaced fixed time steps (0.016s) with a dynamic `dt` variable to ensure smooth, frame-rate independent movement.
+* ** Code Structure:** Refactored and organized control logic neatly into a `main()` function.
+* ** Wall Collisions:** Added wall collision boundaries controlled by a bounce factor constant (`B`).
 * **🌟 High-Density Mass:** Added support for an optional high-density anchor mass configurable via the terminal (choose density and whether it remains stationary or moves freely).
-
----
-
-## 🛠️ How to Run
-
-1. Make sure you have Python and Pygame installed:
-   ```bash
-   pip install pygame
