@@ -8,7 +8,7 @@
 <img src="Demo_Video.gif" alt="App Demo GIF" width="600" />
 
 <p align="center">
-  <img src="Stationary_Center_Mass.gif" alt="Stationary" width="300" style="display: inline-block; margin: 10px;" />
+
 </p>
 Video of Movable Center Mass (LEFT)   Video of Stationary Center Mass (RIGHT)
 
