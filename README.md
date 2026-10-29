@@ -1,22 +1,50 @@
-# 2D Gravity Physics Sim
+<div align="center">
 
-> The goal of this project is to create a simple, fun, interactive simulation to observe how N amount of objects with radius R and density D interact with eachother's gravitational pull.
+# 🪐 2D Gravity Physics Simulator
 
-#### Left click anywhere on the pygame screen to add a ball, and see how they interact!
+*A simple, fun, and interactive simulation to explore N-body gravitational interactions.*
 
-## Demo Video:
-<img src="Demo_Video.gif" alt="App Demo GIF" width="600" />
+[Features](#-version-2-optimizations--updates) • [Demo](#-demo) • [Getting Started](#-how-to-run)
+
+</div>
+
+---
+
+## 🎯 Objective
+
+The goal of this project is to create an intuitive sandbox where you can observe how multiple objects with custom radii and densities interact through mutual gravitational pull.
+
+> **Controls:** Left-click anywhere on the Pygame window to spawn a new ball and watch the physics unfold!
+
+---
+
+## 🎥 Demo
 
 <p align="center">
-
+  <img src="Demo_Video.gif" alt="App Demo GIF" width="600" />
 </p>
-Video of Movable Center Mass (LEFT)   Video of Stationary Center Mass (RIGHT)
+<p align="center">
+  <em>Movable Center Mass (Left) &nbsp;&bull;&nbsp; Stationary Center Mass (Right)</em>
+</p>
 
-## Version 2 Optimizations and Updates:
-* Switched from Euler integration to Verlet int
-* Stored mass in ball class to save computation
-* Fixed incorrect mass calculation, previously had m = d/v when in reality it is m = d*v
-* Implemented dt variable instead of constant like 0.016s (1/60, 60fps) so we can determine actual time passed as # each loop wont be perfectly same amount of time of 0.016s
-* Organized control code into main()
-* Added collsion with walls constant "B" representing Bounce factor
-* Added optional high density mass, can be configured by user thru terminal. User can configure the density, and whether or not it is stationary. (if it is affected by surrounding ball's gravity or not)
+---
+
+## 🚀 Version 2 Optimizations & Updates
+
+This version brings major performance upgrades, physical accuracy improvements, and new customization features:
+
+* **⚡ Verlet Integration:** Switched from standard Euler integration to Verlet integration for superior stability and accuracy in orbital mechanics.
+* **🧮 Computation Optimization:** Pre-computed and stored mass directly inside the `Ball` class to eliminate redundant calculations per frame.
+* **⚖️ Bug Fix:** Corrected a critical mass calculation error (changed from $m = \frac{d}{v}$ to the physically correct $m = d \times v$).
+* **⏱️ Delta Time ($\Delta t$):** Replaced fixed time steps (0.016s) with a dynamic `dt` variable to ensure smooth, frame-rate independent movement.
+* **🧹 Code Structure:** Refactored and organized control logic neatly into a `main()` function.
+* **🧱 Wall Collisions:** Added wall collision boundaries controlled by a bounce factor constant (`B`).
+* **🌟 High-Density Mass:** Added support for an optional high-density anchor mass configurable via the terminal (choose density and whether it remains stationary or moves freely).
+
+---
+
+## 🛠️ How to Run
+
+1. Make sure you have Python and Pygame installed:
+   ```bash
+   pip install pygame
