@@ -4,8 +4,6 @@
 
 *A simple, fun, and interactive simulation to explore N-body gravitational interactions.*
 
-[Features](#-version-2-optimizations--updates) • [Demo](#-demo) • [Getting Started](#-how-to-run)
-
 </div>
 
 ---
@@ -19,13 +17,7 @@ The goal of this project is to create an intuitive sandbox where you can observe
 ---
 
 ## 🎥 Demo
-
-<p align="center">
-  <img src="Demo_Video.gif" alt="App Demo GIF" width="600" />
-</p>
-<p align="center">
-  <em>Movable Center Mass (Left) &nbsp;&bull;&nbsp; Stationary Center Mass (Right)</em>
-</p>
+<img src="Demo_Video.gif" alt="App Demo GIF" width="600" />
 
 ---
 
@@ -40,3 +32,6 @@ This version brings major performance upgrades, physical accuracy improvements, 
 * ** Code Structure:** Refactored and organized control logic neatly into a `main()` function.
 * ** Wall Collisions:** Added wall collision boundaries controlled by a bounce factor constant (`B`).
 * **🌟 High-Density Mass:** Added support for an optional high-density anchor mass configurable via the terminal (choose density and whether it remains stationary or moves freely).
+
+## Use Instructions: 
+Interact with the REPL to determine the configuration of the game via the CLI. Once you complete all the prompts, the game window will pop up automatically!
