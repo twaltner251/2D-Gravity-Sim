@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🪐 2D Gravity Physics Simulator
+# 🪐 2D Gravity Physics Simulator:
 
 *A simple, fun, and interactive simulation to explore N-body gravitational interactions.*
 
@@ -8,7 +8,7 @@
 
 ---
 
-## 🎯 Objective
+## Objective"
 
 The goal of this project is to create an intuitive sandbox where you can observe how multiple objects with custom radii and densities interact through mutual gravitational pull.
 
@@ -16,12 +16,12 @@ The goal of this project is to create an intuitive sandbox where you can observe
 
 ---
 
-## 🎥 Demo
+## 🎥 Demo:
 <img src="Demo_Video.gif" alt="App Demo GIF" width="600" />
 
 ---
 
-## 🚀 Version 2 Optimizations & Updates
+## 🚀 Version 2 Optimizations & Updates:
 
 This version brings major performance upgrades, physical accuracy improvements, and new customization features:
 
